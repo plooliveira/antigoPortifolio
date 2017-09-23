@@ -15,18 +15,22 @@ body {
 	max-width: 985px;
 	margin: auto;
 	font-family: 'Quicksand', sans-serif;
-	
+	color: #767676;
 }
 header li{
 	display: inline-block;
 	float: right;
 	margin: 3%;
 	margin-top: 5%;
-	color: #777171;
-	
+	transition: all .2s;
+}
+
+header li:hover{
+	transform: translateY(4px);	
 }
 
 header nav ul {
+	height: 130px;
 	margin-right: 0; 
 	padding: 0;
     overflow: auto;
@@ -39,16 +43,23 @@ a:link
 header a:visited {
     color: inherit;
 }
+
+footer a:visited {
+    color: inherit;
+}
 header nav h1{
 	display: inline-block;
-	float: left;
 	margin:0;
-	margin-top:0;
-	padding: auto;
+	margin-top: 0;
 	font-size: 2.8em;
-	color: #55909e;
+	color: #767676;
+	border-top:8px solid #2D7D9A;
+	transition: all 0.3s;
 }
 
+header nav h1:hover {
+	transform: translateX(20px);
+}
 /*ID selector*/
 
 #header {
@@ -65,15 +76,69 @@ header nav h1{
 	display: inline-block;
 	overflow: auto;
 }
+
 .main-content {
 	display: block;
 }
 
+.linkedin-style  {
+	font-weight: bold;
+	color:#007bb6;
+}
+/* icons class selector*/
+
+.fa-pencil-square-o{
+	color: #424242 ;
+	margin-left: 2px;
+}
+
+.fa-github{
+	color: black;
+	margin-left: 2px;
+	
+}
+.fa-linkedin-square{
+	color:#0077B5;
+}
+
+.fa-facebook{
+	color:#3b5999;
+}
+.fa-instagram{
+	
+	color:#e4405f ;
+}
+
+.fi-social-treehouse{
+	color: green;
+	font-size: 1.3em;
+	margin: 2px;
+	
+}
+
+.fa-free-code-camp{
+	color: black;
+	margin: 2px;
+}
+
+.fa-codepen{
+	color: black;
+	margin:2px;
+}
+.icon-focous{
+	transition: all .3s;
+}
+.icon-focous:hover {
+	
+	transform: scale(1.4);
+
+}
+/* End icons class selector*/
 .info {
 	text-align: center;
 	display: block;
 	margin-left: 0;
-	margin-top: 100px;
+	
 }
 
 .info p{
@@ -92,17 +157,7 @@ header nav h1{
 	margin-left: 10px;
 	
 }
-.face-icon, .insta-icon{
-	margin: 10px;
-}
-.face-icon img {
-	width: 36px;
-	
-}
 
-.insta-icon img{
-	width: 37px;
-}
 .sections-main {
   width: 100%;
   height: 300px;
@@ -118,6 +173,20 @@ header nav h1{
   padding-bottom: 20px;
   border-top: 2px solid #e2e0e0;
 }
+.main-footer ul {
+	text-align: center;
+}
+.main-footer li {
+	display: inline-block;
+	font-size: 1.5em;
+	margin:10px;
+	transition: all .2s;
+}
+
+footer li:hover{
+	transform: translateY(4px);	
+}
+
 .projects-sec, .skills-sec{
 	width: 50%;
 	height: 100%;
