@@ -39,6 +39,7 @@ header nav ul {
 a:link 
 { 
  text-decoration:none; 
+ color: inherit;
 } 
 header a:visited {
     color: inherit;
@@ -215,7 +216,7 @@ footer li:hover{
 }
 
 .skills-pos i {
-	height: 95px;
+	height: 9px;
 	font-size: 5em;
 	margin-top: -25px;
 }
