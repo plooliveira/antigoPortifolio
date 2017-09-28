@@ -251,14 +251,16 @@ footer li:hover{
 		width: 90%;
 	}
 	header nav ul {
-		
+	width: 70%;	
 	font-size: 1.8rem;
 	padding: 0;
-	text-align: center;
+	padding-left: 10px;
+	
 	
 	}
 	header nav li{
 	margin-right: 0;
+	 
 	}
 	
 	.info p{
