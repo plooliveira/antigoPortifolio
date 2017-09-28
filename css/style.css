@@ -247,20 +247,28 @@ footer li:hover{
 
 @media(max-width: 940px){
 	
-	
+	body {
+		width: 90%;
+	}
 	header nav ul {
 		
-	
+	font-size: 1.8rem;
+	padding: 0;
+	text-align: center;
 	
 	}
 	header nav li{
-	
+	margin-right: 0;
 	}
 	
-	header nav h1{
-		
-		
+	.info p{
+		font-size: 1.5rem;
 	}
 	
 
+}
+
+@media(max-width: 840px) {
+	
+	
 }
