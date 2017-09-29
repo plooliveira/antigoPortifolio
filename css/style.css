@@ -31,7 +31,7 @@ header li:hover{
 
 header nav ul {
 	height: 120px;
-	margin-top: 0;
+	margin-top: 10px;
     width: 80%;
     float: right;
 }
@@ -50,7 +50,7 @@ footer a:visited {
 }
 header nav h1{
 	display: inline-block;
-	margin-top: 0;
+	margin-top: 10px;
 	margin-left: 20px;
 	font-size: 2.8em;
 	color: #767676;
@@ -68,6 +68,8 @@ header nav h1:hover {
 }
 
 /*Class selector*/
+
+
 .nav-main {
 	width: 100%;
 	margin-top: 0;
@@ -256,7 +258,6 @@ footer li:hover{
 	padding: 0;
 	padding-left: 10px;
 	
-	
 	}
 	header nav li{
 	margin-right: 0;
@@ -270,7 +271,28 @@ footer li:hover{
 
 }
 
-@media(max-width: 840px) {
+@media(max-width: 768px) {
+	.nav-main{
+		display: block;
+		text-align: center;
+		margin-top: 40px;
+	}	
+	header nav h1 {
+		float: none;
+		margin-bottom: 20px;
+	}
+	header nav ul {
+	height: 80px;
+	font-size: 1.3rem;
+    width: 80%;
+    float: none;
+    margin: auto;
+    margin-top: 0;
+    
+	}
 	
-	
+	header nav li{
+	margin: auto;
+	 
+	}
 }
