@@ -169,25 +169,6 @@ header nav h1:hover {
   
 }
 
-.main-footer {
-  margin-top: 50px;
-  padding-bottom: 20px;
-  border-top: 2px solid #e2e0e0;
-}
-.main-footer ul {
-	text-align: center;
-}
-.main-footer li {
-	display: inline-block;
-	font-size: 1.5em;
-	margin:10px;
-	transition: all .2s;
-}
-
-footer li:hover{
-	transform: translateY(4px);	
-}
-
 .projects-sec, .skills-sec{
 	width: 50%;
 	height: 100%;
@@ -197,7 +178,6 @@ footer li:hover{
 	border-right: 2px solid #e2e0e0;
 
 }
-
 .skills-sec {
 	float: right;
 	overflow: auto;
@@ -221,7 +201,26 @@ footer li:hover{
 	font-size: 5em;
 	margin-top: -25px;
 }
-
+.main-footer {
+  margin-top: 50px;
+  padding-bottom: 20px;
+  border-top: 2px solid #e2e0e0;
+}
+.footer-links-full {
+	text-align: center;
+}
+.footer-links-short{
+	display: none;
+}
+.footer-links-full li {
+	display: inline-block;
+	font-size: 1.5em;
+	margin:10px;
+	transition: all .2s;
+}
+footer li:hover{
+	transform: translateY(4px);	
+}
 .fi-html5 {
 	color: #e34f26;
 }
@@ -275,26 +274,51 @@ footer li:hover{
 	.nav-main{
 		display: block;
 		text-align: center;
-		margin-top: 40px;
+		margin-top: 30px;
 	}	
 	header nav h1 {
 		font-size: 7rem;
 		float: none;
 		margin-bottom: 20px;
 	}
-
 	header nav ul {
 	height: 80px;
 	font-size: 1.5rem;
-    width: 90%;
+    width: 100%;
     float: none;
     margin: auto;
     margin-top: 0;
     
 	}
-	
 	header nav li{
 	margin: auto;
 	 
 	}
+	.sections-main{
+		height: 100%;
+	}
+	.projects-sec, .skills-sec{
+	width: 100%;
+	min-height: 200px;
+	height: 100%;
+	float: none;
+	border:none;
+	}
+	.footer-links-full{
+		display: none;
+	}
+	.footer-links-short{
+		display: inherit;
+		text-align: center;
+		padding: 0;
+	}
+	.footer-links-short li {
+		display: inline-block;
+		font-size: 2em;
+		margin: 15px;
+		margin-top: 0;
+		margin-bottom: 0;
+		transition: all .2s;
+	}
+		
 }
